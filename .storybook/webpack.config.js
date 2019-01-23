@@ -1,3 +1,4 @@
+// https://github.com/storybooks/storybook/issues/1946
 const path = require("path");
 
 module.exports = (config, configType) => {

@@ -1,7 +1,7 @@
 import { configure } from "@storybook/react";
 
 function loadStories() {
-  // require('../stories/index')
+  require("../src/pages/HomePage.story");
 }
 
 configure(loadStories, module);
