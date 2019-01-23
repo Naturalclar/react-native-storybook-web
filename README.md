@@ -1,7 +1,6 @@
 # react-native-storybook-web
 
 A react-native project template with storybook integration.
-This project is made with `react-native init`.
 
 # What is it about?
 
@@ -9,13 +8,18 @@ This repository is to show that a react-native project can be tested on Web, usi
 
 You can see how it is set up by viewing the [.storybook](/.storybook) directory
 
+This project is started up using `react-native init`, but you can also have the same setup on an app made with `expo`
+
 # Getting Started
 
 ### Clone and install dependencies
 
 ```
 # Clone this repository
-git clone [URL]
+git clone https://github.com/Naturalclar/react-native-storybook-web.git
+
+# cd into repository
+cd react-native-storybook-web
 
 # Install dependencies
 yarn
