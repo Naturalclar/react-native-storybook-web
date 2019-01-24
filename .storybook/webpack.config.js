@@ -23,6 +23,28 @@ module.exports = (config, configType) => {
     ]
   });
 
+  config.module.rules.unshift({
+    test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+    loader: require.resolve("url-loader"),
+    options: {
+      limit: 10000,
+      name: "static/media/[name].[hash:8].[ext]"
+    }
+  });
+
+  config.module.rules.unshift({
+    test: /\.(woff|woff2|eot|ttf|svg)$/,
+    use: [
+      {
+        loader: require.resolve("file-loader"),
+        options: {
+          limit: 10000,
+          name: "static/media/[name].[hash:8].[ext]"
+        }
+      }
+    ]
+  });
+
   config.module.rules.push({
     test: /\.js$/,
     use: [

@@ -21,13 +21,15 @@
     "@storybook/react": "^4.1.7",
     "babel-jest": "23.6.0",
     "babel-loader": "^8.0.5",
+    "file-loader": "^3.0.1",
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.51.1",
     "react-art": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-native-web": "^0.10.0-alpha.2",
     "react-native-web-image-loader": "^0.0.6",
-    "react-test-renderer": "16.6.3"
+    "react-test-renderer": "16.6.3",
+    "url-loader": "^1.1.2"
   },
   "jest": {
     "preset": "react-native"
