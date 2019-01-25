@@ -1,7 +1,8 @@
 // @flow
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
 import { Header } from "react-native-elements";
+import { LoginForm } from "../organisms";
 
 const styles = StyleSheet.create({
   container: { flex: 1 }
@@ -14,6 +15,7 @@ const HomePage = () => (
       centerComponent={{ text: "MY TITLE", style: { color: "#fff" } }}
       rightComponent={{ icon: "home", color: "#fff" }}
     />
+    <LoginForm />
   </View>
 );
 
