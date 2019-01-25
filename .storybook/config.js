@@ -4,7 +4,8 @@ import { withOptions } from "@storybook/addon-options";
 import { withKnobs } from "@storybook/addon-knobs";
 
 function loadStories() {
-  require("../src/pages/HomePage.story");
+  const req = require.context("../src", true, /\.story\.jsx?$/);
+  req.keys().forEach(story => req(story));
 }
 
 addDecorator(
