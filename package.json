@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "storybook": "start-storybook -p 9009 -c .storybook"
+    "storybook": "start-storybook -p 9009 -c .storybook",
+    "build:storybook": "build-storybook -c .storybook -o public"
   },
   "dependencies": {
     "react": "16.6.3",
