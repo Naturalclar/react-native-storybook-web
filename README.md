@@ -1,3 +1,5 @@
+**This repository is outdated.** If you'd like to see the latest example of react-native used with storybook on web, see [Naturalclar/expo-typescript-starter](https://github.com/Naturalclar/expo-typescript-starter)
+
 # react-native-storybook-web
 
 A react-native project template with storybook integration.
